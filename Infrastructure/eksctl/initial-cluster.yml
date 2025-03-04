@@ -9,7 +9,7 @@ vpc:
   cidr: 10.0.0.0/16
   nat:
     gateway: HighlyAvailable
-NodeGroups:
+nodeGroups:
   - name: eks-node-group
     instanceType: t3.medium
     desiredCapacity: 3
